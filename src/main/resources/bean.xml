@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+
+    <!-- for injecting dependency by name-->
+    <!--    <bean id="heart" class="org.DemoProject1.com.Heart"/>-->
+    <!--    <bean id = "human" class="org.DemoProject1.com.Human" autowire="byName"/>-->
+
+
+
+    <!-- for injecting dependency by type-->
+    <!--    <bean id="heartObject" class="org.DemoProject1.com.Heart"/>-->
+    <!--    <bean id = "human" class="org.DemoProject1.com.Human" autowire="byType"/>-->
+
+
+
+    <!-- for injecting dependency by constructor-->
+    <!--    <bean id="heartObject" class="org.DemoProject1.com.Heart"/>-->
+    <!--    <bean id = "human" class="org.DemoProject1.com.Human" autowire="constructor"/>-->
+
+
+
+
+
+</beans>
